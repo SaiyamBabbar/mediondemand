@@ -163,8 +163,31 @@ cd MediOnDemand
 
 4. **Email sending issues**:
    - Check the email configuration in the `.env` file.
-   - If using Gmail, enable "Less secure app access" or use an app password.
 
-5. **AWS S3 errors**:
+
+
+Code Structure & Best Practices
+
+Modular Architecture
+
+Separation of concerns between frontend and backend
+Component-based frontend structure
+MVC pattern for backend organization
+
+
+Clean Code Practices
+
+Consistent naming conventions
+Proper error handling
+Comprehensive documentation
+Security best practices
+
+
+Version Control Best Practices
+
+Meaningful commit messages
+Feature branching workflow
+Regular commits with clear purposes
+   - If using Gmail, enable "Less secure app access" or use an app password.
    - Verify the AWS credentials and bucket name in the `.env` file.
    - Ensure the bucket has the appropriate permissions.
